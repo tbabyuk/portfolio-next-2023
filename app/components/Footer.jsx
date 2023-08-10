@@ -9,7 +9,7 @@ export const Footer = () => {
 
 
   return (
-    <footer className="h-12 grid place-items-center bg-gray-100 text-black text-sm">
+    <footer className="h-12 grid place-items-center bg-gray-950 text-gray-50 text-sm">
         &copy; {year}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Taras Terry Babyuk&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Strictly Web Dev
     </footer>
   )

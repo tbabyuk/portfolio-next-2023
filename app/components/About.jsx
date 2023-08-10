@@ -3,16 +3,16 @@
 
 export const About = () => {
   return (
-      <section className="about-section my-20" id="about">
+      <section className="about-section py-28 flex flex-col justify-center bg-gray-50" id="about">
 
-            <div className="section-header px-5 lg:px-20 xl:px-48 text-gray-700 pb-8">             
+            <div className="section-header px-5 lg:px-20 xl:px-48 text-gray-700 pb-20">             
                 <div className="flex flex-col gap-3">
                     <h4 className="text-3xl">ABOUT ME</h4>
                     <p>A bit about who I am and what drives me</p>
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row px-5 lg:px-20 xl:px-48 bg-gray-100 py-20">
+            <div className="flex flex-col lg:flex-row px-5 lg:px-20 xl:px-48">
                 <div className="mb-16 lg:mb-0 grid place-items-center lg:me-10 xl:me-20">
                   <img src="/Terry.jpg" style={{maxWidth: "250px"}} className="rounded" />
                 </div>
