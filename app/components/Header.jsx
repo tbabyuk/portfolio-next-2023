@@ -14,7 +14,7 @@ export const Header = () => {
                 <a href="https://www.linkedin.com/in/taras-terry-babyuk/" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
                 <a href="https://github.com/tbabyuk" target="_blank"><i className="fa fa-github-square" aria-hidden="true"></i></a>
             </div> */}
-        <div className="header-content grid md:grid-cols-5 lg:grid-cols-4 w-full h-full bg-[url('/header_bg.jpg')] bg-center bg-cover absolute top-[-30px] -skew-y-2 -z-20">
+        <div className="header-content grid md:grid-cols-5 lg:grid-cols-4 w-full h-full bg-[url('/images/header_bg.jpg')] bg-center bg-cover absolute top-[-30px] -skew-y-2 -z-20">
 
             <div className="grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2">
                 <div className="flex flex-col gap-3 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
@@ -28,7 +28,7 @@ export const Header = () => {
                 <div className="header-right mb-10 md:mb-0 text-2xl md:text-3xl xl:text-4xl text-gray-100">
                 <Typewriter 
                         options={{
-                        strings: ["HTML", "CSS", "Bootstrap", "Tailwind", "JavaScript", "React", "NextJS", "FireBase"],
+                        strings: ["HTML/CSS", "Bootstrap", "Tailwind", "JavaScript", "React", "NextJS", "FireBase"],
                         autoStart: true,
                         loop: true,
                         }}
@@ -38,5 +38,3 @@ export const Header = () => {
     </header>
   )
 }
-
-export default Header
