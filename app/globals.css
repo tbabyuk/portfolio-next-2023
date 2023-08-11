@@ -17,7 +17,7 @@
 }
 
 
-.skills-list {
+/* .skills-list {
     opacity: 0;
     transform: translateX(-500px);
     transition: opacity 0.5s ease, transform 0.8s ease;
@@ -37,4 +37,4 @@
   .contact-form.active {
     opacity: 1;
     transform: translateX(0);
-  }
+  } */

@@ -7,6 +7,7 @@ import { Inter } from 'next/font/google'
 import { skillsArray } from './data/portfolioData'
 import { projectsArray } from './data/portfolioData'
 import { ProjectCard } from './components/ProjectCard'
+import { motion } from 'framer-motion'
 
 import Typewriter from "typewriter-effect"
 
@@ -15,50 +16,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  // const [isVisible, setIsVisible] = useState(false)
-  const [skillsIsVisible, setSkillsIsVisible] = useState(false)
-  const [contactIsVisible, setContactIsVisible] = useState(false)
-
   const today = new Date()
   const year = today.toLocaleString("default", {
     year: "numeric"
   })
-
-  const divRef = useRef()
-  const divRef2 = useRef()
-
-  const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.50
-  }
-
-  const myFunction = (entries, index) => {
-
-    // console.log("log each entry, entry 1:", entries[0].target, "entry 2:", entries[1].target)
-    // console.log("type is:", typeof entries, "here:", entries)
-    entries.forEach((entry, index) => {
-
-      if(entry.isIntersecting) {
-
-        if(entry.target.id === "skills") {
-          setSkillsIsVisible(true)
-        }
-
-        if(entry.target.id === "contact") {
-          setContactIsVisible(true)
-        }
-      }
-
-    })
-  }
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(myFunction, options)
-    observer.observe(divRef.current)
-    observer.observe(divRef2.current)
-
-  }, [])
 
 
   return (
@@ -70,15 +31,23 @@ export default function Home() {
             </div> */}
           <div className="header-content grid md:grid-cols-5 lg:grid-cols-4 w-full h-full bg-[url('/images/header_bg.jpg')] bg-center bg-cover absolute top-[-30px] -skew-y-2 -z-20">
 
-              <div className={`grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2`}>
+              <motion.div
+                  initial={{ opacity: 0, x: -200 }}
+                  whileInView={{ opacity: 1, x: 0, skewY: 2 }}
+                  transition={{ ease: "easeOut", duration: 1 }}
+                  className={`grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2`}>
                   <div className="flex flex-col gap-3 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
                       <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I'm Terry</h2>
                       <h3 className="text-2xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
                       <h4 className="text-xl md:text-2xl font-thin italic">...with a passion for everything web!</h4>
                   </div>
-              </div>
+              </motion.div>
 
-              <div className="grid place-items-center md:col-span-2 lg:col-span-2 skew-y-2">
+              <motion.div 
+                  initial={{ opacity: 0, x: 200 }}
+                  whileInView={{ opacity: 1, x: 0, skewY: 2 }}
+                  transition={{ ease: "easeOut", duration: 1 }}
+                  className="grid place-items-center md:col-span-2 lg:col-span-2 skew-y-2">
                   <div className="header-right mb-10 md:mb-0 text-2xl md:text-3xl xl:text-4xl text-gray-100">
                   <Typewriter 
                           options={{
@@ -88,7 +57,7 @@ export default function Home() {
                           }}
                       />                
                   </div>
-              </div>
+              </motion.div>
           </div>  
       </header>
 
@@ -117,7 +86,7 @@ export default function Home() {
 
 
       {/* SKILLS SECTION */}
-      <section ref={divRef} className="skills-section py-28 flex flex-col justify-center bg-[url('/images/skills_bg.jpg')]" id="skills">
+      <section className="skills-section py-28 flex flex-col justify-center bg-[url('/images/skills_bg.jpg')]" id="skills">
 
         <div className="section-header px-5 lg:px-20 xl:px-48 text-gray-50 pb-20">             
             <div className="flex flex-col gap-3">
@@ -126,7 +95,12 @@ export default function Home() {
             </div>
         </div>
 
-        <div className={`grid grid-cols-4 place-items-center gap-16 px-5 lg:px-8 xl:px-24 skills-list ${skillsIsVisible && "active"}`}>
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+            viewport={{ once: true }}
+            className={`grid grid-cols-4 place-items-center gap-16 px-5 lg:px-8 xl:px-24 skills-list`}>
             {skillsArray && 
                 skillsArray.map((skill) => (
                 <Image
@@ -140,7 +114,7 @@ export default function Home() {
                     className=" hover:rotate-6 transition ease-in-out"
                 />
             ))}
-        </div>
+        </motion.div>
       </section>
 
 
@@ -154,7 +128,12 @@ export default function Home() {
             </div>
         </div>
 
-        <div className="flex flex-row flex-wrap justify-center gap-20 px-5 lg:px-8 xl:px-18">
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+            viewport={{ once: true }}
+            className="flex flex-row flex-wrap justify-center gap-20 px-5 lg:px-8 xl:px-18">
             {projectsArray && 
                 projectsArray.map((project) => (
                     <ProjectCard
@@ -166,12 +145,12 @@ export default function Home() {
                     />
                 ))
             }
-        </div>
+        </motion.div>
       </section>
 
 
       {/* CONTACT SECTION */}
-      <section ref={divRef2} className={`contact-section py-28 flex flex-col justify-center bg-[url('/images/contact_bg.jpg')]`} id="contact">
+      <section className={`contact-section py-28 flex flex-col justify-center bg-[url('/images/contact_bg.jpg')]`} id="contact">
     
         <div className="section-header px-5 lg:px-20 xl:px-48 text-gray-50 pb-20">             
             <div className="flex flex-col gap-3">
@@ -180,14 +159,19 @@ export default function Home() {
             </div>
         </div>
 
-        <div className={`flex justify-center contact-form ${contactIsVisible && "active"} px-5 lg:px-20 xl:px-48`}>
+        <motion.div
+            initial={{ opacity: 0, x: -200 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }}
+            viewport={{ once: true }}
+            className={`flex justify-center contact-form px-5 lg:px-20 xl:px-48`}>
               <form className="flex flex-col w-[500px] p-5">
                   <input type="text" name="name" placeholder="your name" className="py-2 ps-3 rounded mb-7" />
                   <input type="email" name="email" placeholder="your email" className="py-2 ps-3 rounded mb-7" />
                   <textarea name="message" id="" cols="30" rows="5" placeholder="your message" className="py-2 ps-3 rounded mb-12" />
                   <button className="rounded h-10 text-gray-50 bg-sky-700 hover:bg-sky-800">Send!</button>
               </form>
-        </div>
+        </motion.div>
       </section>
 
       <footer className="h-12 grid place-items-center bg-gray-950 text-gray-50 text-sm">
