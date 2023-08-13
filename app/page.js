@@ -42,7 +42,7 @@ export default function Home() {
                 transition={{ ease: "easeOut", duration: 1 }}
                 className={`grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2`}>
                 <div className="flex flex-col gap-3 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
-                    <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I'm Terry</h2>
+                    <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;,m Terry</h2>
                     <h3 className="text-2xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
                     <h4 className="text-xl md:text-2xl font-thin italic">...with a passion for everything web!</h4>
                 </div>
@@ -130,8 +130,9 @@ export default function Home() {
             // viewport={{ once: true }}
             className="flex flex-row flex-wrap justify-center gap-20 px-5 lg:px-8 xl:px-18">
             {projectsArray && 
-                projectsArray.map((project) => (
+                projectsArray.map((project, id) => (
                     <ProjectCard
+                        key={id}
                         src={project.src}
                         title={project.title}
                         description={project.description}
