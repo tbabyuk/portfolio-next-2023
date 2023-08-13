@@ -42,7 +42,7 @@ export default function Home() {
                 transition={{ ease: "easeOut", duration: 1 }}
                 className={`grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2`}>
                 <div className="flex flex-col gap-3 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
-                    <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;,m Terry</h2>
+                    <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;m Terry</h2>
                     <h3 className="text-2xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
                     <h4 className="text-xl md:text-2xl font-thin italic">...with a passion for everything web!</h4>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
 
         <div className="flex flex-col gap-3 bg-sky-800 text-gray-50 text-center py-3 absolute top-[0] -translate-y-[50%] w-full" id="contact">
             <h4 className="text-3xl">CONTACT ME</h4>
-            <p className="text-[0.9rem]">Let's get in touch!</p>
+            <p className="text-[0.9rem]">Let&apos;s get in touch!</p>
         </div>
 
         <motion.div
