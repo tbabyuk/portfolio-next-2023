@@ -70,11 +70,11 @@ export default function Home() {
 
       {/* ABOUT SECTION */}
       <section className="about-section relative pt-32 pb-44 flex flex-col justify-center bg-gray-50" id="about">
-        <a href="/terry_web_dev_sm.pdf" className="absolute flex items-center top-2 right-8 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
+        <a href="/terry_web_dev_resume_sm.pdf" className="absolute flex items-center top-2 right-8 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
         <div className="flex flex-col lg:flex-row px-5 sm:px-12 md:px-20 lg:px-20 xl:px-48">
             <div className="mb-16 lg:mb-0 grid place-items-center lg:me-10 xl:me-20">
             <img 
-                src="/images/Terry.jpg"
+                src="/images/terry.jpg"
                 // width="1000"
                 // height="1000"
                 alt="photo of Terry" 
@@ -84,7 +84,7 @@ export default function Home() {
             </div>
             <div className="flex items-center">
                 <div className="leading-8">
-                    Welcome and thank you for visiting my portfolio page! My name is Terry and I am a Front End Developer focusing on JavaScript and React. I love the creative process involved in web development and the challenge that comes with bringing an idea to life through code. In addition to coding, I also occasionally enjoy writing blog articles and making videos about code. My blog can be found <a href="https://strictlywebdev.com/blog/" target="_blank" rel="noopener noreferrer" className="text-sky-700 hover:underline">HERE</a> and my YouTube videos <a href="https://www.youtube.com/@strictlywebdev" target="_blank" rel="noopener noreferrer" className="text-sky-700 hover:underline">HERE</a>. Please feel free to browse some of my projects below and reach out should you have any questions or professional inquiries!
+                    Welcome and thank you for visiting my portfolio page! My name is Terry and I am a Front End Developer focusing on JavaScript and React. I love the creative process involved in web development and the challenge that comes with bringing an idea to life through code. In addition to coding, I also occasionally enjoy writing blog articles and making videos about code. My blog can be found <a href="https://strictlywebdev.com/blog/" target="_blank" rel="noopener noreferrer" className="text-sky-700 hover:underline">HERE</a> and my YouTube videos <a href="https://www.youtube.com/@strictlywebdev" target="_blank" rel="noopener noreferrer" className="text-sky-700 hover:underline">HERE</a>. Please feel free to review my projects below and be sure to read the README.md file for each project on my GitHub for detailed description and testing information. Lastly, feel free to reach out should you have any questions or professional inquiries!
                 </div>
             </div>
         </div>
@@ -104,7 +104,7 @@ export default function Home() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ease: "easeOut", duration: 1 }}
             viewport={{ once: true }}
-            className={`grid grid-cols-2 md:grid-cols-4 place-items-center gap-16 px-5 lg:px-8 xl:px-24 skills-list`}>
+            className={`grid grid-cols-2 md:grid-cols-4 place-items-center gap-16 px-5 md:px-8 xl:px-24 skills-list`}>
             {skillsArray && 
                 skillsArray.map((skill) => (
                 <Image
