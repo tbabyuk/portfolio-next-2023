@@ -73,10 +73,10 @@ export default function Home() {
         <a href="/terry_web_dev_sm.pdf" className="absolute flex items-center top-2 right-8 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
         <div className="flex flex-col lg:flex-row px-5 sm:px-12 md:px-20 lg:px-20 xl:px-48">
             <div className="mb-16 lg:mb-0 grid place-items-center lg:me-10 xl:me-20">
-            <Image 
+            <img 
                 src="/images/Terry.jpg"
-                width="1000"
-                height="1000"
+                // width="1000"
+                // height="1000"
                 alt="photo of Terry" 
                 style={{maxWidth: "250px"}}
                 className="rounded"  
