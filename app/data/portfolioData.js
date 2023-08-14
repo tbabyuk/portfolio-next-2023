@@ -6,13 +6,15 @@ export const projectsArray = [
       description: "An app for every-day office admin tasks",
       src: "/images/dcam_admin_app_demo.jpg",
       liveUrl: "https://admirable-scone-4cd8a6.netlify.app/",
+      video: "https://youtu.be/nrmB9Qk4III",
       githubUrl: "https://github.com/tbabyuk/dcam-admin-demo"
     },
     { 
-      title: "Employee Work Hours App", 
+      title: "Contractor Work Hours App", 
       description: "An app that lets employees record their work hours",
       src: "/images/dcam_staff_app_demo.jpg",
       liveUrl: "https://glittering-youtiao-dec919.netlify.app/",
+      video: "https://youtu.be/DyJk7JGooSQ",
       githubUrl: "https://github.com/tbabyuk/dcam-staff-demo"
     },
     { 
@@ -20,6 +22,7 @@ export const projectsArray = [
       description: "An app showing requirements for a music exam",
       src: "/images/project_rcm_wizard.jpg",
       liveUrl: "https://rcm-wizard.dacapomusic.ca/",
+      video: "https://youtu.be/j1HuFpGklgs",
       githubUrl: "https://github.com/tbabyuk/rcm-wizard"
     }
   ]

@@ -103,7 +103,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ease: "easeOut", duration: 1 }}
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             className={`grid grid-cols-2 md:grid-cols-4 place-items-center gap-16 px-5 lg:px-8 xl:px-24 skills-list`}>
             {skillsArray && 
                 skillsArray.map((skill) => (
@@ -134,7 +134,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ease: "easeOut", duration: 1 }}
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             className="flex flex-row flex-wrap justify-center gap-20 px-5 lg:px-8 xl:px-18">
             {projectsArray && 
                 projectsArray.map((project, id) => (
@@ -144,6 +144,7 @@ export default function Home() {
                         title={project.title}
                         description={project.description}
                         live={project.liveUrl}
+                        video={project.video}
                         github={project.githubUrl}
                     />
                 ))
@@ -164,7 +165,7 @@ export default function Home() {
             initial={{ opacity: 0, x: -200 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ease: "easeOut", duration: 1 }}
-            // viewport={{ once: true }}
+            viewport={{ once: true }}
             className={`flex justify-center contact-form px-5 lg:px-20 xl:px-48`}>
               <form className="flex flex-col w-[500px]">
                   <input type="text" name="name" placeholder="your name" className="py-2 ps-3 rounded mb-7" />
