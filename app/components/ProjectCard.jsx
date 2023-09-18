@@ -22,7 +22,7 @@ export const ProjectCard = ({src, live, video, github, title, description}) => {
                 <p className="text-sm">{description}</p>
             </div>
             <div className="flex justify-evenly pb-6">
-                <Link href={live} target="_blank"><button className="card-button">Live Demo</button></Link>
+                <Link href={live} target="_blank"><button className="card-button">Live</button></Link>
                 <Link href={video} target="_blank"><button className="card-button">Video</button></Link>
                 <Link href={github} target="_blank"><button className="card-button">GitHub</button></Link>
             </div>

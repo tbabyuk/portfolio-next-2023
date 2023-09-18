@@ -24,7 +24,15 @@ export const projectsArray = [
       liveUrl: "https://rcm-wizard.dacapomusic.ca/",
       video: "https://youtu.be/j1HuFpGklgs",
       githubUrl: "https://github.com/tbabyuk/rcm-wizard"
-    }
+    },
+    { 
+      title: "Webinar Landing Page", 
+      description: "A webinar landing page I had done for a real-estate client",
+      src: "/images/landing-page-demo.jpg",
+      liveUrl: "https://golden-churros-0f78d2.netlify.app/",
+      video: "https://youtu.be/bYv_hQkVqjo",
+      githubUrl: "https://github.com/tbabyuk/webinar-landing-page-demo"
+    },
   ]
 
 
