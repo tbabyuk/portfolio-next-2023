@@ -2,13 +2,14 @@ import Image from "next/image"
 import Link from "next/link"
 
 
-export const ProjectCard = ({src, live, video, github, title, description}) => {
+export const ProjectCard = ({src, alt, live, video, github, title, description}) => {
   return (
     <div className="flex flex-col rounded-md overflow-hidden w-auto md:w-[330px] shadow-md">
         <Link href={live} target="_blank">
             <div className="overflow-hidden">
                 <Image
                     src={src}
+                    alt={alt}
                     width="400"
                     height="200"
                     quality={100}

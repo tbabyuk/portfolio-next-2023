@@ -5,11 +5,13 @@ import { Inter } from "next/font/google"
 
 import { skillsArray } from "./data/portfolioData"
 import { projectsArray } from "./data/portfolioData"
-import { ProjectCard } from "./components/ProjectCard"
 import { motion } from "framer-motion"
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { BiSolidFilePdf } from "react-icons/bi"
 
+// components
+import { ProjectCard } from "./components/ProjectCard"
+import { ContactForm } from "./components/ContactForm"
 
 import Typewriter from "typewriter-effect"
 
@@ -141,6 +143,7 @@ export default function Home() {
                     <ProjectCard
                         key={id}
                         src={project.src}
+                        alt={project.alt}
                         title={project.title}
                         description={project.description}
                         live={project.liveUrl}
@@ -167,12 +170,7 @@ export default function Home() {
             transition={{ ease: "easeOut", duration: 1 }}
             viewport={{ once: true }}
             className={`flex justify-center contact-form px-5 lg:px-20 xl:px-48`}>
-              <form className="flex flex-col w-[500px]" action="https://getform.io/f/0f4ec1d0-7bc0-404a-a084-ffe41c488b84" method="POST">
-                  <input type="text" name="name" placeholder="your name" className="py-2 ps-3 rounded mb-7" />
-                  <input type="email" name="email" placeholder="your email" className="py-2 ps-3 rounded mb-7" />
-                  <textarea name="message" id="" cols="30" rows="5" placeholder="your message" className="py-2 ps-3 rounded mb-12" />
-                  <button className="rounded h-10 text-gray-50 bg-sky-700 hover:bg-sky-800">Send!</button>
-              </form>
+              <ContactForm />
         </motion.div>
       </section>
 
