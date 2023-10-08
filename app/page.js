@@ -46,7 +46,7 @@ export default function Home() {
                 <div className="flex flex-col gap-3 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
                     <h2 className="text-3xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;m Terry</h2>
                     <h3 className="text-2xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
-                    <h4 className="text-xl md:text-2xl font-thin italic">...with a passion for everything web!!</h4>
+                    <h4 className="text-xl md:text-2xl font-thin italic">...with a passion for everything web!</h4>
                 </div>
             </motion.div>
 

@@ -25,7 +25,7 @@ export const projectsArray = [
       src: "/images/music-school-demo.jpg",
       alt: "music school demo image",
       liveUrl: "https://www.dacapomusic.ca/",
-      video: "https://youtu.be/bYv_hQkVqjo",
+      video: "https://youtu.be/jxay5BvnSSk",
       githubUrl: "https://github.com/tbabyuk/DCAM-2023-NextJS"
     },
     { 
