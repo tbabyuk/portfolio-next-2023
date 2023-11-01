@@ -16,30 +16,6 @@ import { ContactForm } from "./components/ContactForm"
 import Typewriter from "typewriter-effect"
 
 const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
-    title: "My Portfolio",
-    description: "Terry Babyuk Web Dev Portfolio",
-    robots: { index: true, follow: true},
-    authors: [{name: "Taras (Terry) Babyuk"}],
-    openGraph: {
-        title: "My Portfolio",
-        description: "Terry Babyuk Web Dev Portfolio",
-        url: "https://www.terrywebdev.com/",
-        siteName: "My Portfolio",
-        locale: "en_US",
-        type: "website",
-        // publishedTime: "2020-07-27T22:12:00+00:00",
-        images: [    
-            {
-                url: "https://firebasestorage.googleapis.com/v0/b/dcam-staff.appspot.com/o/other%2Fbanner_october_2023_1200.png?alt=media&token=11c54ef7-2639-4d5a-89da-b88db36e50a0&_gl=1*1jc20tt*_ga*NzE2ODk4MDA0LjE2OTMyNzY3MzA.*_ga_CW55HF8NVT*MTY5ODgwMDA4OC45OS4xLjE2OTg4MDAyMjcuMzMuMC4w",
-                width: 1200,
-                height: 300,
-                type: "image/jpeg"
-            }
-        ],
-    },
-  }
   
 
 export default function Home() {
