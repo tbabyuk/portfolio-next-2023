@@ -14,7 +14,7 @@ export const AboutSection = () => {
             <div className="flex flex-col lg:flex-row px-5 sm:px-12 md:px-20 lg:px-20 xl:px-48">
                 <div className="mb-16 lg:mb-0 grid place-items-center lg:me-10 xl:me-20">
                 <img 
-                    src="/images/terry_didi_sm.jpg"
+                    src="/images/terry_didi.jpg"
                     alt="photo of Terry" 
                     style={{maxWidth: "200px"}}
                     className="rounded-lg"  
