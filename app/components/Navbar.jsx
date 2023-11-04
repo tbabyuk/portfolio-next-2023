@@ -10,8 +10,8 @@ export const Navbar = () => {
     const [dropdownIsOpen, setDropdownIsOpen] = useState(false)
 
     return (
-      <nav className="h-[50px] relative bg-gradient-to-r from-sky-950 to-sky-900 text-gray-100 flex justify-between items-center px-5 md:px-10">
-        <Link href="#">PORTFOLIO</Link>
+      <nav className="h-[50px] bg-gradient-to-r from-sky-950 to-sky-900 text-gray-100 flex justify-between items-center px-5 md:px-10 z-50">
+        <Link href="#">MY PORTFOLIO</Link>
         <RxHamburgerMenu className="md:hidden hover:cursor-pointer text-3xl" onClick={() => setDropdownIsOpen(!dropdownIsOpen)} />
           <ul
               className={`md:flex ${dropdownIsOpen ? "flex mt-100 h-[220px] flex-col items-center justify-center gap-5 z-10 bg-black bg-opacity-80 absolute right-0 top-[50px] w-[188px] rounded-b-md" : "hidden"}`}>

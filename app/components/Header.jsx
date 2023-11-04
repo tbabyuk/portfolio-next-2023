@@ -12,15 +12,15 @@ export const Header = () => {
   const {isDarkTheme, setIsDarkTheme} = useTheme()
 
   return (
-        <header className="h-[380px] relative">
+        <header className="h-[400px] relative">
             <div className="absolute top-5 left-5">
                 <ReactSwitch
                     checked={isDarkTheme}
                     onChange={() => setIsDarkTheme(!isDarkTheme)}
-                    onHandleColor="#22222"
+                    onHandleColor="#222222"
                     offHandleColor="#F9FAFB"
                     onColor="#F9FAFB"
-                    offColor="#22222"
+                    offColor="#222222"
                     checkedIcon={false}
                     uncheckedIcon={false}
                 />

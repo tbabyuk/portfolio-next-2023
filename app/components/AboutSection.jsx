@@ -6,8 +6,6 @@ export const AboutSection = () => {
 
   const {isDarkTheme} = useTheme()
 
-  console.log("showing current theme:", isDarkTheme)
-
   return (
         <section className={`about-section relative pt-32 pb-44 flex flex-col justify-center ${!isDarkTheme ? "bg-gray-50" : "bg-gray-800"}`} id="about">
             <a href="/terry_web_dev_2023.pdf" className="absolute flex items-center top-5 right-5 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
