@@ -3,17 +3,11 @@
 import Link from "next/link";
 import {RxHamburgerMenu} from "react-icons/rx"
 import { useState } from "react";
-import { motion } from "framer-motion"
 
 
 export const Navbar = () => {
 
     const [dropdownIsOpen, setDropdownIsOpen] = useState(false)
-
-    const variants = {
-      open: { opacity: 1, x: "0px" },
-      closed: { opacity: 0, x: dropdownIsOpen ? "-100%" : 0 }
-    }
 
     return (
       <nav className="h-[50px] relative bg-gradient-to-r from-sky-950 to-sky-900 text-gray-100 flex justify-between items-center px-5 md:px-10">

@@ -1,10 +1,15 @@
 import Image from "next/image"
 import Link from "next/link"
-
+import { useTheme } from "../context/ThemeContextProvider"
 
 export const ProjectCard = ({src, alt, live, video, github, title, description}) => {
+
+  const {isDarkTheme} = useTheme()
+
+
+
   return (
-    <div className="flex flex-col rounded-md overflow-hidden w-auto md:w-[330px] shadow-md">
+    <div className="flex flex-col rounded-md overflow-hidden w-auto md:w-[330px] shadow-md bg-gray-50">
         <Link href={live} target="_blank">
             <div className="overflow-hidden">
                 <Image
