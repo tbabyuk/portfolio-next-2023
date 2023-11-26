@@ -22,7 +22,7 @@ export const projectsArray = [
     { 
       title: "Small Business Website", 
       description: "A website for a music school business",
-      src: "/images/music-school-demo.jpg",
+      src: "/images/music_school_demo.jpg",
       alt: "music school demo image",
       liveUrl: "https://www.dacapomusic.ca/",
       video: "https://youtu.be/jxay5BvnSSk",
@@ -31,7 +31,7 @@ export const projectsArray = [
     { 
       title: "Webinar Landing Page", 
       description: "A webinar landing page for a real-estate client",
-      src: "/images/landing-page-demo.jpg",
+      src: "/images/landing_page_demo.jpg",
       alt: "landing page demo image",
       liveUrl: "https://golden-churros-0f78d2.netlify.app/",
       video: "https://youtu.be/bYv_hQkVqjo",
@@ -45,6 +45,15 @@ export const projectsArray = [
       liveUrl: "https://rcm-wizard.dacapomusic.ca/",
       video: "https://youtu.be/j1HuFpGklgs",
       githubUrl: "https://github.com/tbabyuk/rcm-wizard"
+    },
+    { 
+      title: "Disney Website Clone", 
+      description: "A clone of the official disney website",
+      src: "/images/disney_clone_demo.jpg",
+      alt: "disney website clone image",
+      liveUrl: "https://disney-clone-liard-one.vercel.app/",
+      video: "",
+      githubUrl: "https://github.com/tbabyuk/disney_clone"
     }
   ]
 
