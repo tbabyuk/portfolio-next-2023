@@ -3,8 +3,8 @@
 export const projectsArray = [
     { 
       title: "Office Admin App", 
-      description: "An app for every-day office admin tasks",
-      src: "/images/dcam_admin_app_demo.jpg",
+      description: "An app for office tasks and payroll tracking",
+      src: "/images/dcam-admin-next-demo.jpg",
       alt: "admin app demo image",
       liveUrl: "https://admirable-scone-4cd8a6.netlify.app/",
       video: "https://youtu.be/nrmB9Qk4III",
@@ -12,8 +12,8 @@ export const projectsArray = [
     },
     { 
       title: "Contractor Work Hours App", 
-      description: "An app that lets employees record work hours",
-      src: "/images/dcam_staff_app_demo.jpg",
+      description: "An app for logging payroll work hours",
+      src: "/images/dcam-staff-next-demo.jpg",
       alt: "staff app demo image",
       liveUrl: "https://glittering-youtiao-dec919.netlify.app/",
       video: "https://youtu.be/DyJk7JGooSQ",
@@ -21,7 +21,7 @@ export const projectsArray = [
     },
     { 
       title: "Small Business Website", 
-      description: "A website for a music school business",
+      description: "Multi-featured music school website",
       src: "/images/music_school_demo.jpg",
       alt: "music school demo image",
       liveUrl: "https://www.dacapomusic.ca/",
@@ -30,7 +30,7 @@ export const projectsArray = [
     },
     { 
       title: "Webinar Landing Page", 
-      description: "A webinar landing page for a real-estate client",
+      description: "Real-estate webinar landing page",
       src: "/images/landing_page_demo.jpg",
       alt: "landing page demo image",
       liveUrl: "https://golden-churros-0f78d2.netlify.app/",
@@ -48,7 +48,7 @@ export const projectsArray = [
     },
     { 
       title: "Disney Website Clone", 
-      description: "A clone of the official disney website",
+      description: "Official disney website clone",
       src: "/images/disney_clone_demo.jpg",
       alt: "disney website clone image",
       liveUrl: "https://disney-clone-liard-one.vercel.app/",
