@@ -6,18 +6,18 @@ export const projectsArray = [
       description: "An app for office tasks and payroll tracking",
       src: "/images/dcam-admin-next-demo.jpg",
       alt: "admin app demo image",
-      liveUrl: "https://admirable-scone-4cd8a6.netlify.app/",
+      liveUrl: "https://dcam-admin-next-demo.vercel.app/",
       video: "https://youtu.be/nrmB9Qk4III",
-      githubUrl: "https://github.com/tbabyuk/dcam-admin-demo"
+      githubUrl: "https://github.com/tbabyuk/dcam-admin-next-demo"
     },
     { 
       title: "Contractor Work Hours App", 
       description: "An app for logging payroll work hours",
       src: "/images/dcam-staff-next-demo.jpg",
       alt: "staff app demo image",
-      liveUrl: "https://glittering-youtiao-dec919.netlify.app/",
+      liveUrl: "https://dcam-staff-next-demo.vercel.app/",
       video: "https://youtu.be/DyJk7JGooSQ",
-      githubUrl: "https://github.com/tbabyuk/dcam-staff-demo"
+      githubUrl: "https://github.com/tbabyuk/dcam-staff-next-demo"
     },
     { 
       title: "Small Business Website", 
