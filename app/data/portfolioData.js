@@ -7,7 +7,7 @@ export const projectsArray = [
       src: "/images/dcam-admin-next-demo.jpg",
       alt: "admin app demo image",
       liveUrl: "https://dcam-admin-next-demo.vercel.app/",
-      video: "https://youtu.be/nrmB9Qk4III",
+      video: "https://youtu.be/4gzWEDhtNcE",
       githubUrl: "https://github.com/tbabyuk/dcam-admin-next-demo"
     },
     { 
@@ -16,7 +16,7 @@ export const projectsArray = [
       src: "/images/dcam-staff-next-demo.jpg",
       alt: "staff app demo image",
       liveUrl: "https://dcam-staff-next-demo.vercel.app/",
-      video: "https://youtu.be/DyJk7JGooSQ",
+      video: "https://youtu.be/57hjyfY6cSk",
       githubUrl: "https://github.com/tbabyuk/dcam-staff-next-demo"
     },
     { 
