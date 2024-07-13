@@ -15,10 +15,10 @@ export const Navbar = () => {
         <RxHamburgerMenu className="md:hidden hover:cursor-pointer text-3xl" onClick={() => setDropdownIsOpen(!dropdownIsOpen)} />
           <ul
               className={`md:flex ${dropdownIsOpen ? "flex mt-100 h-[220px] flex-col items-center justify-center gap-5 z-10 bg-black bg-opacity-80 absolute right-0 top-[50px] w-[188px] rounded-b-md" : "hidden"}`}>
-                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="#about">About</a></li>
-                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="#skills">Skills</a></li>
-                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="#projects">Projects</a></li>
-                  <li className="hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="#contact">Contact</a></li>
+                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="/#about">About</a></li>
+                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="/#skills">Skills</a></li>
+                  <li className="md:me-6 hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="/#projects">Projects</a></li>
+                  <li className="hover:-rotate-3 hover:text-gray-300" onClick={() => setDropdownIsOpen(false)}><a href="/#contact">Contact</a></li>
           </ul>
       </nav>
     );

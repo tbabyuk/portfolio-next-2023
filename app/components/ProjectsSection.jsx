@@ -24,17 +24,8 @@ export const ProjectsSection = () => {
                 viewport={{ once: true }}
                 className="flex flex-row flex-wrap justify-center gap-20 px-5 lg:px-8 xl:px-18">
                 {projectsArray && 
-                    projectsArray.map((project, id) => (
-                        <ProjectCard
-                            key={id}
-                            src={project.src}
-                            alt={project.alt}
-                            title={project.title}
-                            description={project.description}
-                            live={project.liveUrl}
-                            video={project.video}
-                            github={project.githubUrl}
-                        />
+                    projectsArray.map((project, index) => (
+                        <ProjectCard key={index} project={project} />
                     ))
                 }
             </motion.div>
