@@ -6,7 +6,7 @@ export const ProjectCard = ({project}) => {
 
   const {isDarkTheme} = useTheme()
 
-  const {title, description, src, alt, url, liveUrl, video, githubUrl} = project;
+  const {title, shortDescription, src, alt, url, liveUrl, video, githubUrl} = project;
 
 
   return (
@@ -26,7 +26,7 @@ export const ProjectCard = ({project}) => {
         <div className="">
             <div className="text-center py-6">
                 <h2 className="text-2xl font-semibold mb-3">{title}</h2>
-                <p className="text-sm">{description}</p>
+                <p className="text-sm">{shortDescription}</p>
             </div>
             <div className="flex justify-evenly pb-6">
                 <Link href={liveUrl} target="_blank"><button className="card-button">Live</button></Link>

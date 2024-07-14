@@ -2,8 +2,11 @@
 
 export const projectsArray = [
     { 
-      title: "Office Admin App", 
-      description: "An app for office tasks and payroll tracking",
+      title: "Office Admin App",
+      technologies: [""],
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"], 
+      shortDescription: "An app for office tasks and payroll tracking",
+      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
       src: "/images/dcam-admin-next-demo.jpg",
       alt: "admin app demo image",
       url: "office-admin-app",
@@ -12,8 +15,11 @@ export const projectsArray = [
       githubUrl: "https://github.com/tbabyuk/dcam-admin-next-demo"
     },
     { 
-      title: "Contractor Work Hours App", 
-      description: "An app for logging payroll work hours",
+      title: "Contractor Work Hours App",
+      technologies: [""],
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"],
+      shortDescription: "An app for logging payroll work hours",
+      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
       src: "/images/dcam-staff-next-demo.jpg",
       alt: "staff app demo image",
       url: "contractor-work-hours",
@@ -22,8 +28,11 @@ export const projectsArray = [
       githubUrl: "https://github.com/tbabyuk/dcam-staff-next-demo"
     },
     { 
-      title: "Small Business Website", 
-      description: "Multi-featured music school website",
+      title: "Small Business Website",
+      technologies: ["Next.js", "React", "Tailwind", "Route Handlers (API Routes)", "Stripe API", "Google Reviews API", "Firebase Storage", "Controlled Forms", "Nodemailer"],
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/stripe.png"],
+      shortDescription: "Multi-featured music school website",
+      longDescription: "A website / web app for a local music school business. The website includes multiple pages, such as home, teachers, rates, contact, blog, shop, etc. The shop contains complex functionality and uses the Stripe API for transactions. It also has 3 separate forms (trial lesson form, registration form, and new teacher application form) that visitors can submit. As this is a local brick-and-mortar business and local search engine rankings are a crucial factor, the whole website is also optimized for SEO, with most pages ranking in the top 5 on Google.",
       src: "/images/music_school_demo.jpg",
       alt: "music school demo image",
       url: "small-business-app",
@@ -32,8 +41,11 @@ export const projectsArray = [
       githubUrl: "https://github.com/tbabyuk/DCAM-2023-NextJS"
     },
     { 
-      title: "Webinar Landing Page", 
-      description: "Real-estate webinar landing page",
+      title: "Webinar Landing Page",
+      technologies: [""], 
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"], 
+      shortDescription: "Real-estate webinar landing page",
+      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
       src: "/images/landing_page_demo.jpg",
       alt: "landing page demo image",
       url: "landing-page",
@@ -42,8 +54,11 @@ export const projectsArray = [
       githubUrl: "https://github.com/tbabyuk/webinar-landing-page-demo"
     },
     { 
-      title: "Music Exam Helper", 
-      description: "An app showing music exam requirements",
+      title: "Music Exam Helper",
+      technologies: [""], 
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"],
+      shortDescription: "An app showing music exam requirements",
+      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
       src: "/images/rcm_wizard_demo.jpg",
       alt: "rcm wizard demo image",
       url: "music-exam-helper",
@@ -52,8 +67,11 @@ export const projectsArray = [
       githubUrl: "https://github.com/tbabyuk/rcm-wizard"
     },
     { 
-      title: "Disney Website Clone", 
-      description: "Official disney website clone",
+      title: "Disney Website Clone",
+      technologies: [""],
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"], 
+      shortDescription: "Official disney website clone",
+      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
       src: "/images/disney_clone_demo.jpg",
       alt: "disney website clone image",
       url: "disney-website-clone",

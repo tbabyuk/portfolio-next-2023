@@ -22,25 +22,31 @@ const projectDetailPage = async ({params}) => {
 
 
   return (
-    <div className="h-[600px] grid place-items-center bg-gray-800 px-10">
-      <div className="card md:card-side glass h-[70%]">
-        <figure className="max-w-[40%] p-2">
-          <img
-            src={project.src}
-            alt="Movie"
-            className="rounded-md" 
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{project.title}</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div className="card-actions flex-col items-center md:flex-row md:justify-evenly">
-            <button className="btn btn-primary w-[140px]">Live</button>
-            <button className="btn btn-primary w-[140px]">Video</button>
-            <button className="btn btn-primary w-[140px]">GitHub</button>
+    <div className="grid grid-cols-2 bg-gray-800 px-5 lg:px-10 py-10">
+      <div className="text-white grid grid-cols-2">
+          <div className="col-span-2">
+            <h1 className="text-2xl mb-1">{project.title}</h1>
+            <h2 className="text-white/70 italic text-xl border-b-2 border-white/30 pb-8 mb-8">A web app for a music school business</h2>
           </div>
-        </div>
+          <div className="col-span-1">
+            <h3 className="font-semibold pb-2">TECHNOLOGIES:</h3>
+              <ul className=" font-light list-disc list-inside space-y-3">
+                {project.technologies.map((tech, index) => (
+                  <li key={index}>{tech}</li>
+                ))}
+              </ul>
+          </div>
+          <div className="col-span-1 flex flex-wrap items-center justify-center gap-3">
+            {project.techIconsArray.map((icon, index) => (
+              <img key={index} src={icon} width="80px" />
+            ))}
+          </div>
+          <div className="col-span-2 border-t-2 border-white/30 pt-8 mt-8">
+            <h3 className="font-semibold pb-2">DESCRIPTION:</h3>
+            <p className="font-light">{project.longDescription}</p>
+          </div>
       </div>
+      <div style={{backgroundImage: `url(${project.src})`, backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "center"}} />
     </div>
   )
 }
