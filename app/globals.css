@@ -20,3 +20,11 @@ button:disabled {
     @apply bg-gray-500 hover:bg-gray-500
 }
 
+.tb-box-gradient {
+    @apply bg-gradient-to-br from-white/10 to-white/30;
+}
+
+.tb-inner-shadow {
+    @apply shadow-inner shadow-white/10;
+}
+
