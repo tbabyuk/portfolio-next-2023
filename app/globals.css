@@ -20,12 +20,19 @@ button:disabled {
     @apply bg-gray-500 hover:bg-gray-500
 }
 
-.tb-bento-box {
+.tb-bento-box-light {
     @apply p-8 bg-gradient-to-br from-white/5 via-white/10 to-white/20 shadow-inner shadow-white/10 rounded-2xl;
 }
 
-.tb-bento-box-2 {
+.tb-bento-box-light-2 {
     @apply p-8 bg-gradient-to-br from-white/5 via-white/10 to-white/20 shadow-inner shadow-white/10 rounded-b-2xl;
 }
 
+.tb-bento-box-dark {
+    @apply p-8 bg-gradient-to-br from-gray-700 to-gray-600 rounded-2xl;
+}
+
+.tb-bento-box-dark-2 {
+    @apply p-8 bg-gradient-to-br from-gray-700 to-gray-600 rounded-b-2xl;
+}
 

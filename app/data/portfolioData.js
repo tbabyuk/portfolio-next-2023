@@ -3,7 +3,7 @@
 export const projectsArray = [
     { 
       title: "Small Business Website",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration", "asset storage with Firebase Storage"],
+      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration", "asset storage with Firebase Storage", "responsive design"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Route Handlers (API Routes)", "Stripe API", "Google Reviews API", "Firebase Storage", "Controlled Forms", "Nodemailer"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/stripe.png"],
       shortDescription: "Multi-featured website for a local business",
@@ -31,7 +31,7 @@ export const projectsArray = [
     },
     { 
       title: "Office Admin App",
-      features: ["task tracker with CRUD functionality", "payroll dashboard for employee pay", "instrument rental dashboard", "authentication with Firebase Auth"],
+      features: ["task tracker with CRUD functionality", "payroll dashboard for employee pay", "instrument rental dashboard", "authentication with Firebase Auth", "responsive design"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Firebase Auth", "Firebase Firestore", "MongoDB"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/mongo.png"], 
       shortDescription: "An app for office tasks and payroll tracking",
@@ -45,7 +45,7 @@ export const projectsArray = [
     },
     {
       title: "Work Hours Tracker",
-      features: ["employee work hours log", "employee document / tax form view", "authentication with Next Auth"],
+      features: ["employee work hours log", "employee document / tax form view", "authentication with Next Auth", "responsive design"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "NextAuth.js", "MongoDB", "Date-fns"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/next-auth.png", "/images/skills/tailwind.png", "/images/skills/mongo.png"],
       shortDescription: "An app for logging payroll work hours",
@@ -59,11 +59,11 @@ export const projectsArray = [
     },
     { 
       title: "Webinar Landing Page",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
+      features: ["user form submission", "automated email alerts", "responsive design"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Nodemailer"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png"],
       shortDescription: "Real-estate webinar landing page",
-      longDescription: "A simple webinar registration landing page that I had done for a real-estate client. It provides visitors with information about the webinar and allows them to register by entering their name and email address. After they register, they receive a zoom link that they can use to join the webinar. The webinar organizer (my client) receives an email to their mailbox with the name and email of each registrant, which was accomplished on the back end with Nodemailer.",
+      longDescription: "A webinar landing page that I did for a real-estate client. It provides visitors with information about the webinar and allows them to register by entering their name and email address. After they submit their registration, they can view a zoom link to join the webinar. The webinar organizer (my client) receives an automated email alert whenever somebody registers, containing the registrant's name and email address.",
       src: "/images/projects/webinar_landing_page.jpg",
       alt: "landing page demo image",
       url: "landing-page",
@@ -73,18 +73,18 @@ export const projectsArray = [
     },
     { 
       title: "Disney Website Clone",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
-      technologies: [""],
+      features: ["dropdown menus", "image sliders", "responsive design"],
+      technologies: ["Next.js", "React", "Tailwind"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"], 
       shortDescription: "Official disney website clone",
-      longDescription: "A website / web app for a local music school business. The website includes a home page, lesson offerings page, rates page, teachers page, reviews page, about page, contact page, and a blog page with multiple blog articles. It is also optimized for SEO.",
+      longDescription: "This was a fun project to do and the goal here was just to keep my front-end skills sharp by re-creating an existing website with as much detail as possible. The Disney website has since changed a bit, but this version existed sometime in 2023. I enjoy Disney movies that I thought this would be fun to do!",
       src: "/images/projects/disney_website_clone.jpg",
       alt: "disney website clone image",
       url: "disney-website-clone",
       liveUrl: "https://disney-clone-liard-one.vercel.app/",
       videoUrl: "",
       githubUrl: "https://github.com/tbabyuk/disney_clone"
-    }
+    },
   ]
 
 

@@ -9,9 +9,9 @@ export const ProjectsSection = () => {
 
   const {isDarkTheme} = useTheme()
 
-  return (
-        <section className={`projects-section relative py-52 flex flex-col justify-center ${!isDarkTheme ? "bg-gray-50" : "bg-gray-800"}`}>
 
+  return (
+        <section className={`projects-section relative py-52 flex flex-col justify-center ${isDarkTheme ? "bg-gray-900" : "bg-gray-50"}`}>
             <div className="flex flex-col gap-3 bg-sky-800 text-gray-50 text-center py-3 absolute top-[0] -translate-y-[50%] w-full" id="projects">
                 <h4 className="text-3xl">PROJECTS</h4>
                 <p className="text-[0.9rem]">A few of my projects</p>

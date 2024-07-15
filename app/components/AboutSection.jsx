@@ -7,8 +7,9 @@ export const AboutSection = () => {
 
   const {isDarkTheme} = useTheme()
 
+
   return (
-        <section className={`about-section relative pt-32 pb-44 flex flex-col justify-center ${!isDarkTheme ? "bg-gray-50" : "bg-gray-800"}`} id="about">
+        <section className={`about-section relative pt-32 pb-44 flex flex-col justify-center ${isDarkTheme ? "bg-gray-900" : "bg-gray-50"}`} id="about">
             <a href="/terry_web_dev_2023.pdf" className="absolute flex items-center top-5 right-5 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
             <div className="flex flex-col lg:flex-row px-5 sm:px-12 md:px-20 lg:px-20 xl:px-48">
                 <div className="mb-16 lg:mb-0 grid place-items-center lg:me-10 xl:me-20">
