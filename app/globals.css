@@ -3,28 +3,29 @@
 @tailwind utilities;
 
 
-.card-image {
+.card-box {
     cursor: pointer;
     transition: transform .6s ease-in-out
 }
 
-.card-image:hover {
+.card-box:hover {
     transform: scale(1.1)
 }
 
 .card-button {
-    @apply py-2 px-4 rounded-md bg-sky-700 text-gray-100 hover:bg-sky-800
+    @apply py-3 px-4 rounded-md bg-sky-700 text-gray-100 hover:bg-sky-800
 }
 
 button:disabled {
     @apply bg-gray-500 hover:bg-gray-500
 }
 
-.tb-box-gradient {
-    @apply bg-gradient-to-br from-white/10 to-white/30;
+.tb-bento-box {
+    @apply p-8 bg-gradient-to-br from-white/5 via-white/10 to-white/20 shadow-inner shadow-white/10 rounded-2xl;
 }
 
-.tb-inner-shadow {
-    @apply shadow-inner shadow-white/10;
+.tb-bento-box-2 {
+    @apply p-8 bg-gradient-to-br from-white/5 via-white/10 to-white/20 shadow-inner shadow-white/10 rounded-b-2xl;
 }
+
 

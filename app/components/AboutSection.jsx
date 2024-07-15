@@ -2,6 +2,7 @@ import { BiSolidFilePdf } from "react-icons/bi"
 import { useTheme } from "../context/ThemeContextProvider"
 
 
+
 export const AboutSection = () => {
 
   const {isDarkTheme} = useTheme()
