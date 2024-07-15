@@ -16,8 +16,8 @@ export const ProjectDetailCard = ({project}) => {
             className="text-gray-200 grid grid-cols-2 mb-8 lg:mb-0">
                 {/* title container */}
                 <div className="col-span-2 mb-8 rounded-2xl tb-bento-box">
-                <h1 className="text-2xl italic md:text-3xl border-b-2 border-white/20 pb-2 mb-2">{project.title}</h1>
-                <h2 className="text-white/50 italic text-lg md:text-xl">A web app for a music school business</h2>
+                <h1 className="text-2xl md:text-3xl border-b-2 border-white/20 pb-2 mb-2">{project.title}</h1>
+                <h2 className="text-white/50 italic text-lg md:text-xl">{project.shortDescription}</h2>
                 </div>
     
                 {/* features container */}
@@ -28,11 +28,6 @@ export const ProjectDetailCard = ({project}) => {
                         <li key={index} className="">{feature}</li>
                     ))}
                 </ul>
-                {/* <ul className="font-light list-disc list-inside space-y-3">
-                    {project.features.map((feature, index) => (
-                    <li key={index}>{feature}</li>
-                    ))}
-                </ul> */}
                 </div>
                 {/* tech container */}
                 <div className="col-span-2 grid grid-cols-2 mb-8 tb-bento-box">
@@ -63,9 +58,9 @@ export const ProjectDetailCard = ({project}) => {
             className="lg:px-10"> 
                 <img src={project.src} alt="project image" className="rounded-t-lg" />
                 <div className="tb-bento-box-2 flex flex-col gap-y-5 sm:flex-row justify-evenly py-10">
-                    <Link href={project.liveUrl}><button className="card-button w-full sm:w-[100px]">Live</button></Link>
-                    <Link href={project.videoUrl}><button className="card-button w-full sm:w-[100px]">Video</button></Link>
-                    <Link href={project.githubUrl}><button className="card-button w-full sm:w-[100px]">GitHub</button></Link>
+                    <Link href={project.liveUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">Live</button></Link>
+                    <Link href={project.videoUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">Video</button></Link>
+                    <Link href={project.githubUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">GitHub</button></Link>
                 </div>
             </motion.div>
         </div>

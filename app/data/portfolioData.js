@@ -3,17 +3,17 @@
 export const projectsArray = [
     { 
       title: "Small Business Website",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
+      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration", "asset storage with Firebase Storage"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Route Handlers (API Routes)", "Stripe API", "Google Reviews API", "Firebase Storage", "Controlled Forms", "Nodemailer"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/stripe.png"],
-      shortDescription: "Multi-featured music school website",
-      longDescription: "A website / web app for a local music school business. The website includes multiple pages, such as home, teachers, rates, contact, blog, shop, etc. The shop contains complex functionality and uses the Stripe API for transactions. It also has 3 separate forms (trial lesson form, registration form, and new teacher application form) that visitors can submit. As this is a local brick-and-mortar business and local search engine rankings are a crucial factor, the whole website is also optimized for SEO, with most pages ranking in the top 5 on Google.",
+      shortDescription: "Multi-featured website for a local business",
+      longDescription: "A website / web application for a local music school business. The website includes multiple pages, such as home, teachers, rates, contact, blog, shop, etc. The shop contains complex functionality and uses the Stripe API for transactions. The website has 3 separate forms (trial lesson form, registration form, and new teacher application form) that visitors can submit, with automatic email alerts going to the admin. As this is a local brick-and-mortar business and local search engine rankings are a crucial factor, the whole website is also optimized for SEO, with most pages ranking in the top 5 on Google.",
       src: "/images/projects/small_business_website.jpg",
       alt: "music school demo image",
       url: "small-business-app",
       liveUrl: "https://www.dacapomusic.ca/",
       videoUrl: "https://youtu.be/jxay5BvnSSk",
-      githubUrl: "https://github.com/tbabyuk/DCAM-2023-NextJS"
+      githubUrl: "https://github.com/tbabyuk/dcam-website-2024"
     },
     { 
       title: "ESL Worksheet Wizard",
@@ -31,31 +31,31 @@ export const projectsArray = [
     },
     { 
       title: "Office Admin App",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
+      features: ["task tracker with CRUD functionality", "payroll dashboard for employee pay", "instrument rental dashboard", "authentication with Firebase Auth"],
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Firebase Auth", "Firebase Firestore", "MongoDB"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/mongo.png"], 
       shortDescription: "An app for office tasks and payroll tracking",
-      longDescription: "A web app made for the admin team of a music school business with three main functionalities: a task list/manager, paysheet/work hours tracker for staff members, and rental instrument tracker. The app also contains auth functionality so that only the admin members can log in.",
+      longDescription: "A web app made for the admin team of a music school business with three main features: a task list/manager with live CRUD functionality using Firebase Firestore; a payroll dashboard that queries a MongoDB collection and allows admin to see which teachers have submitted their pay, how much they are owed, and any notes they may have left; and an instrument rental dashboard to keep track of which customers currently have a rental out along with the details of that rental. The app also contains auth functionality using Firebase Auth so that only the admin members can log in.",
       src: "/images/projects/office_admin_app.jpg",
       alt: "admin app demo image",
       url: "office-admin-app",
       liveUrl: "https://dcam-admin-next-demo.vercel.app/",
       videoUrl: "https://youtu.be/4gzWEDhtNcE",
-      githubUrl: "https://github.com/tbabyuk/dcam-admin-next-demo"
+      githubUrl: "https://github.com/tbabyuk/dcam-admin-nextjs-2024"
     },
-    { 
+    {
       title: "Work Hours Tracker",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
-      technologies: ["Next.js", "React", "Node.js", "Tailwind", "Next Auth", "MongoDB", "Date-fns"],
+      features: ["employee work hours log", "employee document / tax form view", "authentication with Next Auth"],
+      technologies: ["Next.js", "React", "Node.js", "Tailwind", "NextAuth.js", "MongoDB", "Date-fns"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/next-auth.png", "/images/skills/tailwind.png", "/images/skills/mongo.png"],
       shortDescription: "An app for logging payroll work hours",
-      longDescription: "A web app designed to allow business employees to log their work hours at the end of every two weeks. This information is then used by the payroll team when doing payments.",
+      longDescription: "A web app designed to allow teachers to log their work hours at the end of every two weeks. Teachers are presented with a list of all of their students and for each student they must select the status of either 'present', 'basent', or 'counted'. Teachers can also leave additional notes to the admin if they wish. This information is then used by the admin to know how much each teacher is owed at payday. Teachers are also able to view any documents they might have under their profile, such as their tax forms. The app uses email and password authentication powered by Next Auth.",
       src: "/images/projects/work_hours_tracker.jpg",
       alt: "staff app demo image",
       url: "contractor-work-hours",
       liveUrl: "https://dcam-staff-next-demo.vercel.app/",
       videoUrl: "https://youtu.be/57hjyfY6cSk",
-      githubUrl: "https://github.com/tbabyuk/dcam-staff-next-demo"
+      githubUrl: "https://github.com/tbabyuk/dcam-staff-nextjs-new"
     },
     { 
       title: "Webinar Landing Page",
