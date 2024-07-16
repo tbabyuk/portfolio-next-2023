@@ -1,10 +1,8 @@
-import Image from "next/image"
 import Link from "next/link"
-import { useTheme } from "../context/ThemeContextProvider"
+
+
 
 export const ProjectCard = ({project}) => {
-
-  const {isDarkTheme} = useTheme()
 
   const {title, shortDescription, src, alt, url, liveUrl, video, githubUrl} = project;
 

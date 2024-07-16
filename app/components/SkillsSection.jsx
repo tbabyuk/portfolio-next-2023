@@ -6,10 +6,9 @@ import Image from "next/image"
 
 export const SkillsSection = () => {
 
-
   return (
-      <section className="skills-section relative py-52 flex flex-col justify-center bg-[url('/images/skills_bg.jpg')]">
-            <div className="flex flex-col gap-3 bg-sky-800 text-gray-50 text-center py-3 absolute top-[0] -translate-y-[50%] w-full" id="skills">
+      <section className="relative home-section-padding flex flex-col justify-center bg-[url('/images/bg_dark.jpg')] bg-center bg-cover">
+            <div className="home-section-heading" id="skills">
                 <h4 className="text-3xl">SKILLS</h4>
                 <p className="text-[0.9rem]">Technologies I have worked with</p>
             </div>
@@ -19,7 +18,7 @@ export const SkillsSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeOut", duration: 1 }}
                 viewport={{ once: true }}
-                className={`grid grid-cols-2 md:grid-cols-5 place-items-center gap-16 px-5 md:px-8 xl:px-24 skills-list`}>
+                className="grid grid-cols-2 md:grid-cols-5 place-items-center gap-16 px-5 md:px-8 xl:px-24 skills-list">
                 {skillsArray && 
                     skillsArray.map((skill) => (
                     <Image

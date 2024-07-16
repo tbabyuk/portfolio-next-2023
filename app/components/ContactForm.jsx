@@ -53,7 +53,7 @@ export const ContactForm = () => {
             <input type="text" name="name" placeholder="your name" className="py-2 ps-3 rounded mb-7" onChange={(e) => setName(e.target.value)} value={name} />
             <input type="email" name="email" placeholder="your email" className="py-2 ps-3 rounded mb-7" onChange={(e) => setEmail(e.target.value)} value={email} />
             <textarea name="message" id="" cols="30" rows="5" placeholder="your message" className="py-2 ps-3 rounded mb-12" onChange={(e) => setMessage(e.target.value)} value={message} />
-            <button className="rounded h-10 text-gray-50 bg-sky-700 hover:bg-sky-800" disabled={sending} >{sending ? "Sending...please wait..." : "SEND"}</button>
+            <button className="rounded h-10 text-gray-50 bg-[#f09c6c] hover:bg-[#ec8346]" disabled={sending} >{sending ? "Sending...please wait..." : "SEND"}</button>
         </form>
         )}
 

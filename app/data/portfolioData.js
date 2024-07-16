@@ -17,9 +17,9 @@ export const projectsArray = [
     },
     { 
       title: "ESL Worksheet Wizard",
-      features: ["SEO optimization", "user form submission", "automated email alerts", "shop functionality with Stripe", "Google reviews integration"],
-      technologies: ["HTML", "Bootstrap", "JavaScript"], 
-      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/tailwind.png"],
+      features: ["worksheet generation with OpenAI API", "shop functionality with Stripe", "authentication with Clerk", "Clerk webhooks", "responsive design"],
+      technologies: ["Next.js", "React", "Node.js", "Tailwind", "Route Handlers (API Routes)", "Web Hooks", "Stripe API", "Clerk", "OpenAI API", "MongoDB"],
+      techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/stripe.png", "/images/skills/mongo.png", "/images/skills/clerk.png", "/images/skills/openai.png"],
       shortDescription: "An app showing music exam requirements",
       longDescription: "A simple web app (desktop and mobile-friendly) that lets users select a specific examination level and see a quick summary of everything they need to learn for that exam. This was a passion project for me. RCM (Royal Conservatory of Music) is a popular authority here in Canada when it comes to music exams. I myself have gone through almost all of their piano exams and wanted to make it easy for aspiring examinees to see exactly what they need to learn for each level of the RCM piano exams. It can also help piano teachers know exactly what they need to teach their students for each exam level.",
       src: "/images/projects/esl_worksheet_wizard.jpg",

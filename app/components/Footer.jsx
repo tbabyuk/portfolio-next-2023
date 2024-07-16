@@ -12,7 +12,7 @@ const year = today.toLocaleString("default", {
 
   return (
         <footer className="h-12 grid place-items-center bg-gray-950 text-gray-50 text-sm">
-            &copy; {year}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Taras Terry Babyuk&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Strictly Web Dev
+            &copy; {year}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Taras Terry Babyuk
         </footer>  
     )
 }

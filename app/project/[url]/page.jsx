@@ -10,15 +10,9 @@ const fetchProject = async (url) => {
 
 const projectDetailPage = async ({params}) => {
 
-
-
   const project = await fetchProject(params.url)
 
 
-  console.log("logging project:", project.src)
-
-  // initial={{ opacity: 0, x: -200 }}
-  // whileInView={{ opacity: 1, x: 0 }}
 
   return (
     <ProjectDetailCard project={project} />
