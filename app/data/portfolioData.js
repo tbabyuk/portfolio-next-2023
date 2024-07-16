@@ -89,14 +89,19 @@ export const projectsArray = [
 
 
 export const skillsArray = [
-  {"id": 1, "name": "html", "src": "/images/skills/html.png", "alt": "html logo", "title": "HTML 5"},
-  {"id": 2, "name": "css", "src": "/images/skills/css.png", "alt": "css logo", "title": "CSS 3"},
-  {"id": 3, "name": "bootstrap", "src": "/images/skills/bootstrap.png", "alt": "bootstrap logo", "title": "Bootstrap"},
-  {"id": 4, "name": "tailwind", "src": "/images/skills/tailwind.png", "alt": "tailwind logo", "title": "Tailwind"},
-  {"id": 5, "name": "javascript", "src": "/images/skills/javascript.png", "alt": "javascript logo", "title": "JavaScript"},
-  {"id": 6, "name": "react", "src": "/images/skills/react.png", "alt": "react logo", "title": "React"},
-  {"id": 7, "name": "firebase", "src": "/images/skills/firebase.png", "alt": "firebase logo", "title": "Firebase"},
-  {"id": 8, "name": "wordpress", "src": "/images/skills/wordpress.png", "alt": "wordpress logo", "title": "Wordpress"},
-  {"id": 9, "name": "mongo", "src": "/images/skills/mongo.png", "alt": "mongoDB logo", "title": "MongoDB"},
-  {"id": 10, "name": "node", "src": "/images/skills/node.png", "alt": "nodeJS logo", "title": "Node.js"}
+    {"id": 1, "name": "html", "src": "/images/skills/html.png", "alt": "html logo", "title": "HTML 5"},
+    {"id": 2, "name": "css", "src": "/images/skills/css.png", "alt": "css logo", "title": "CSS 3"},
+    {"id": 3, "name": "bootstrap", "src": "/images/skills/bootstrap.png", "alt": "bootstrap logo", "title": "Bootstrap"},
+    {"id": 4, "name": "tailwind", "src": "/images/skills/tailwind.png", "alt": "tailwind logo", "title": "Tailwind"},
+    {"id": 5, "name": "javascript", "src": "/images/skills/javascript.png", "alt": "javascript logo", "title": "JavaScript"},
+    {"id": 6, "name": "react", "src": "/images/skills/react.png", "alt": "react logo", "title": "React"},
+    {"id": 7, "name": "node", "src": "/images/skills/node.png", "alt": "nodejs logo", "title": "Node.js"},
+    {"id": 8, "name": "mongo", "src": "/images/skills/mongo.png", "alt": "mongodb logo", "title": "MongoDB"},
+    {"id": 9, "name": "firebase", "src": "/images/skills/firebase.png", "alt": "firebase logo", "title": "Firebase"},
+    {"id": 10, "name": "wordpress", "src": "/images/skills/wordpress.png", "alt": "wordpress logo", "title": "Wordpress"},
+    {"id": 11, "name": "clerk", "src": "/images/skills/clerk.png", "alt": "clerk logo", "title": "Clerk"},
+    {"id": 12, "name": "nextauth", "src": "/images/skills/next-auth.png", "alt": "nextauth logo", "title": "NextAuth.js"},
+    {"id": 13, "name": "stripe", "src": "/images/skills/stripe.png", "alt": "stripe logo", "title": "Stripe"},
+    {"id": 14, "name": "openai", "src": "/images/skills/openai.png", "alt": "openai logo", "title": "OpenAI"},
+    {"id": 15, "name": "github", "src": "/images/skills/github.png", "alt": "github logo", "title": "GitHub"}  
 ]

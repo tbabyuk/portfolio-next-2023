@@ -9,7 +9,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 export const Header = () => {
 
   return (
-        <header className="relative pt-36 pb-24 bg-[url('/images/header_bg.jpg')] bg-center bg-cover">
+        <header className="h-[70vh] pt-20 pb-12 md:h-[100vh] relative bg-[url('/images/header_bg.jpg')] bg-center bg-cover">
             {/* <div className="absolute top-20 left-5">
                 <ReactSwitch
                     checked={isDarkTheme}
@@ -38,7 +38,7 @@ export const Header = () => {
                     initial={{ opacity: 0, x: 0 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ ease: "easeOut", duration: 1 }}
-                    className="grid place-items-center pb-20 md:justify-end md:col-span-3 lg:col-span-2 skew-y-2">
+                    className="grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2">
                     <div className="flex flex-col gap-3 px-5 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
                         <h2 className="text-5xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;m Terry</h2>
                         <h3 className="text-3xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
