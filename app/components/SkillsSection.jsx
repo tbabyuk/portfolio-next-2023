@@ -18,7 +18,7 @@ export const SkillsSection = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ ease: "easeOut", duration: 1 }}
                 viewport={{ once: true }}
-                className="grid grid-cols-2 md:grid-cols-5 place-items-center gap-16 px-5 md:px-8 xl:px-24 skills-list">
+                className="grid grid-cols-2 md:grid-cols-4 place-items-center gap-y-16 px-5 md:px-8 xl:px-24 skills-list">
                 {skillsArray && 
                     skillsArray.map((skill) => (
                     <Image
