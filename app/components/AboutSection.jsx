@@ -6,7 +6,7 @@ export const AboutSection = () => {
 
   return (
         <section className="relative home-section-padding flex flex-col justify-center bg-[url('/images/bg_light.jpg')] bg-center bg-cover">
-            <a href="/terry_web_dev_2023.pdf" className="absolute flex items-center top-28 right-5 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
+            <a href="/terry_web_dev_2023.pdf" className="absolute flex items-center bottom-14 right-14 py-3 px-4 bg-[#f09c6c] hover:bg-[#ec8346] rounded text-gray-50" download><BiSolidFilePdf />&nbsp;RESUME</a>
             <div className="home-section-heading" id="about">
                 <h4 className="text-3xl">ABOUT ME</h4>
                 <p className="text-[0.9rem]">A bit about me and my work</p>

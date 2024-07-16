@@ -9,7 +9,7 @@ import { BsGithub, BsLinkedin } from "react-icons/bs"
 export const Header = () => {
 
   return (
-        <header className="h-[70vh] pt-20 pb-12 md:h-[100vh] relative bg-[url('/images/header_bg.jpg')] bg-center bg-cover">
+        <header className="h-[100vh] pt-20 pb-12 relative bg-[url('/images/header_bg.jpg')] bg-center bg-cover">
             {/* <div className="absolute top-20 left-5">
                 <ReactSwitch
                     checked={isDarkTheme}
@@ -39,7 +39,7 @@ export const Header = () => {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ ease: "easeOut", duration: 1 }}
                     className="grid place-items-center md:justify-end md:col-span-3 lg:col-span-2 skew-y-2">
-                    <div className="flex flex-col gap-3 px-5 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
+                    <div className="flex flex-col space-y-4 px-8 mt-10 md:gap-5 lg:gap-8 md:mt-0 text-gray-100">
                         <h2 className="text-5xl md:text-5xl xl:text-6xl font-light">Hi, I&apos;m Terry</h2>
                         <h3 className="text-3xl md:text-4xl xl:text-5xl font-semibold">A Front-End Developer</h3>
                         <h4 className="text-2xl md:text-2xl font-thin italic">...with a passion for everything web!</h4>
@@ -54,7 +54,7 @@ export const Header = () => {
                     <div className="header-right mb-10 md:mb-0 text-5xl md:text-3xl xl:text-4xl text-gray-100">
                     <Typewriter 
                             options={{
-                            strings: ["HTML/CSS", "Bootstrap", "Tailwind", "JavaScript", "React", "Next.js", "FireBase"],
+                            strings: ["HTML/CSS", "Bootstrap", "Tailwind", "JavaScript", "React", "Next.js", "Node.js", "MongoDB", "Firebase", "Wordpress", "Clerk", "NextAuth", "Stripe", "OpenAI", "GitHub"],
                             autoStart: true,
                             loop: true,
                             }}
