@@ -16,8 +16,8 @@ export const ProjectDetailCard = ({project}) => {
             className="text-gray-200 grid grid-cols-2 mb-8 lg:mb-0">
                 {/* title container */}
                 <div className="col-span-2 mb-8 rounded-2xl tb-bento-box">
-                <h1 className="text-2xl md:text-3xl border-b-2 border-white/20 pb-2 mb-2">{project.title}</h1>
-                <h2 className="text-white/50 italic text-lg md:text-xl">{project.shortDescription}</h2>
+                    <h1 className="text-2xl md:text-3xl border-b-2 border-white/20 pb-2 mb-2">{project.title}</h1>
+                    <h2 className="text-white/50 italic text-lg md:text-xl">{project.shortDescription}</h2>
                 </div>
     
                 {/* features container */}
@@ -48,8 +48,8 @@ export const ProjectDetailCard = ({project}) => {
                 </div>
                 {/* description container */}
                 <div className="col-span-2 rounded-2xl tb-bento-box">
-                <h3 className="font-semibold pb-4">DESCRIPTION:</h3>
-                <p className="font-light">{project.longDescription}</p>
+                    <h3 className="font-semibold pb-4">DESCRIPTION:</h3>
+                    <p className="font-light leading-7">{project.longDescription}</p>
                 </div>
             </motion.div>
             <motion.div
@@ -58,13 +58,22 @@ export const ProjectDetailCard = ({project}) => {
             transition={{ ease: "easeOut", duration: 1 }}       
             className="lg:px-10"> 
                 <img src={project.src} alt="project image" className="rounded-t-lg" />
-                <div className="flex flex-col gap-y-5 sm:flex-row justify-evenly py-10 tb-bento-box-2">
+                <div className="flex flex-col gap-y-5 sm:flex-row justify-evenly py-10 mb-8 tb-bento-box-2">
                     <Link href={project.liveUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">Live</button></Link>
                     <Link href={project.videoUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">Video</button></Link>
                     <Link href={project.githubUrl} target="_blank"><button className="card-button w-full sm:w-[100px]">GitHub</button></Link>
                 </div>
+                { project.loginInfo && (
+                    <div className="col-span-2 mb-8 rounded-2xl tb-bento-box">
+                        <h3 className="font-semibold pb-4">TESTING / DEMO LOGIN:</h3>
+                        <p className="font-light" dangerouslySetInnerHTML={{ __html: project.loginInfo }}></p>
+                    </div>
+                    )
+                }
             </motion.div>
         </div>
     )
 
 }
+
+// dangerouslySetInnerHTML={{ __html: htmlString }}

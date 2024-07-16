@@ -7,13 +7,14 @@ export const projectsArray = [
       technologies: ["Next.js", "React", "Node.js", "Tailwind", "Route Handlers (API Routes)", "Stripe API", "Google Reviews API", "Firebase Storage", "Controlled Forms", "Nodemailer"],
       techIconsArray: ["/images/skills/next.png", "/images/skills/react.png", "/images/skills/node.png", "/images/skills/tailwind.png", "/images/skills/firebase.png", "/images/skills/stripe.png"],
       shortDescription: "Multi-featured website for a local business",
-      longDescription: "A website / web application for a local music school business. The website includes multiple pages, such as home, teachers, rates, contact, blog, shop, etc. The shop contains complex functionality and uses the Stripe API for transactions. The website has 3 separate forms (trial lesson form, registration form, and new teacher application form) that visitors can submit, with automatic email alerts going to the admin. As this is a local brick-and-mortar business and local search engine rankings are a crucial factor, the whole website is also optimized for SEO, with most pages ranking in the top 5 on Google.",
+      longDescription: "A website / web application for a local music school business. The website includes multiple pages, such as home, teachers, rates, contact, blog, shop, etc. The shop contains complex functionality and uses the Stripe API for transactions. The website has 3 separate forms (trial lesson form, registration form, and new teacher application form) that visitors can submit, with automatic email alerts going to the admin. As this is a physical business and local search engine rankings are a crucial factor, the whole website is also optimized for SEO, with most pages ranking in the top 5 on Google.",
       src: "/images/projects/small_business_website.jpg",
       alt: "music school demo image",
       url: "small-business-app",
       liveUrl: "https://www.dacapomusic.ca/",
       videoUrl: "https://youtu.be/jxay5BvnSSk",
-      githubUrl: "https://github.com/tbabyuk/dcam-website-2024"
+      githubUrl: "https://github.com/tbabyuk/dcam-website-2024",
+      loginInfo: ""
     },
     { 
       title: "ESL Worksheet Wizard",
@@ -25,9 +26,10 @@ export const projectsArray = [
       src: "/images/projects/esl_worksheet_wizard.jpg",
       alt: "rcm wizard demo image",
       url: "music-exam-helper",
-      liveUrl: "https://rcm-wizard.dacapomusic.ca/",
+      liveUrl: "https://www.eslworksheetwizard.com/",
       videoUrl: "https://youtu.be/j1HuFpGklgs",
-      githubUrl: "https://github.com/tbabyuk/rcm-wizard"
+      githubUrl: "https://github.com/tbabyuk/saas-esl-worksheet-wizard",
+      loginInfo: "Please log in with any Google account"
     },
     { 
       title: "Office Admin App",
@@ -41,7 +43,8 @@ export const projectsArray = [
       url: "office-admin-app",
       liveUrl: "https://dcam-admin-next-demo.vercel.app/",
       videoUrl: "https://youtu.be/4gzWEDhtNcE",
-      githubUrl: "https://github.com/tbabyuk/dcam-admin-nextjs-2024"
+      githubUrl: "https://github.com/tbabyuk/dcam-admin-nextjs-2024",
+      loginInfo: "Username: <strong>demo@gmail.com</strong><br>Password: <strong>demo123</strong><br><br><i>*For security reasons, you can only view data (and not write or delete) under the demo account.</i>"
     },
     {
       title: "Work Hours Tracker",
@@ -55,7 +58,8 @@ export const projectsArray = [
       url: "contractor-work-hours",
       liveUrl: "https://dcam-staff-next-demo.vercel.app/",
       videoUrl: "https://youtu.be/57hjyfY6cSk",
-      githubUrl: "https://github.com/tbabyuk/dcam-staff-nextjs-new"
+      githubUrl: "https://github.com/tbabyuk/dcam-staff-nextjs-new",
+      loginInfo: "Username: <strong>demo1@gmail.com</strong><br>Password: <strong>demo111</strong><br><br>Username: <strong>demo2@gmail.com</strong><br>Password: <strong>demo222</strong><br><br>Username: <strong>demo3@gmail.com</strong><br>Password: <strong>demo333</strong><br><br><i>*Feel free to play around as if you were a real user and even try to submit the attendance."
     },
     { 
       title: "Webinar Landing Page",
@@ -69,7 +73,8 @@ export const projectsArray = [
       url: "landing-page",
       liveUrl: "https://golden-churros-0f78d2.netlify.app/",
       videoUrl: "https://youtu.be/bYv_hQkVqjo",
-      githubUrl: "https://github.com/tbabyuk/webinar-landing-page-demo"
+      githubUrl: "https://github.com/tbabyuk/webinar-landing-page-demo",
+      loginInfo: ""
     },
     { 
       title: "Disney Website Clone",
@@ -83,7 +88,8 @@ export const projectsArray = [
       url: "disney-website-clone",
       liveUrl: "https://disney-clone-liard-one.vercel.app/",
       videoUrl: "",
-      githubUrl: "https://github.com/tbabyuk/disney_clone"
+      githubUrl: "https://github.com/tbabyuk/disney_clone",
+      loginInfo: ""
     },
   ]
 
