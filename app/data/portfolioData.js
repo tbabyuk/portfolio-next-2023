@@ -86,7 +86,7 @@ export const projectsArray = [
       src: "/images/projects/disney_website_clone.jpg",
       alt: "disney website clone image",
       url: "disney-website-clone",
-      liveUrl: "https://disney-clone-liard-one.vercel.app/",
+      liveUrl: "https://disney-clone-demo-three.vercel.app/",
       videoUrl: "",
       githubUrl: "https://github.com/tbabyuk/disney_clone",
       loginInfo: ""
