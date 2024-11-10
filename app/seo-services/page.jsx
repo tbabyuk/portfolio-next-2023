@@ -64,9 +64,9 @@ const SEOServicesPage = () => {
                     </tr>
                     <tr>
                         <td>Monthly Local Citations</td>
-                        <td className="text-center">30</td>
-                        <td className="text-center">60</td>
-                        <td className="text-center">100</td>
+                        <td className="text-center">20</td>
+                        <td className="text-center">40</td>
+                        <td className="text-center">70</td>
                     </tr>
                     <tr>
                         <td>Monthly Progress Report</td>
