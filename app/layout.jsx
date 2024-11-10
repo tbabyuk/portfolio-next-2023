@@ -1,6 +1,5 @@
 import './globals.css'
 import { Navbar } from './components/Navbar'
-import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 
 export const metadata = {
@@ -30,9 +29,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
-        <body className="bg-gray-50">
+        <body className="bg-gray-50 flex flex-col justify-between">
           <Navbar />
-          <Header />
           {children}
           <Footer />
         </body>
