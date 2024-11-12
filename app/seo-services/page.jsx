@@ -10,6 +10,7 @@ const SEOServicesPage = () => {
         <>
         <PageHeader title="SEO SERVICES" />
         <div className="flex justify-center py-20">
+            <div className="overflow-x-auto">
             <table className="seo-plans-table">
                 <thead>
                     <tr>
@@ -76,6 +77,7 @@ const SEOServicesPage = () => {
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
         </>
     )
