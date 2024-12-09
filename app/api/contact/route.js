@@ -19,7 +19,7 @@ export async function POST(request) {
     
         const mailOptions = {
             from: "terry@strictlywebdev.com",
-            to: "tbabyuk@gmail.com",
+            to: "terry@strictlywebdev.com",
             subject: "New Portfolio Contact",
             html: `
             <strong>Name:</strong><br />
