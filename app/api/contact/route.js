@@ -12,7 +12,7 @@ export async function POST(request) {
         service: "gmail",
         auth: {
             user: "terry@strictlywebdev.com",
-            pass: process.env.EMAIL_SECRET_PASS
+            pass: process.env.SWD_EMAIL_PASS
         }
         })
     
